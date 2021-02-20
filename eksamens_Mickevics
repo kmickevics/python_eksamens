@@ -1,0 +1,30 @@
+#1.uzdevums
+print('Mācies, kamēr gudrs tiec,\n Visu labi vērā liec.\nDzīve gudra, viltīga -\n Gudrība tur derīga!')
+#2.uzdevums
+import sys
+print(sys.version)
+#3.uzdevums
+import math
+print('Laukums ir {}'.format(math.pi*int(input('3.uzdevums. Ievadi radiusu:'))**2))
+#4.uzdevums
+print('Izvade: ' + input('4.uzdevums. Ievadi vārdu: ')[::-1])
+#5.uzdevums
+nums = input('5.uzdevums. Ievadi 10 skaitlus ar atstarpi:').split(' ')
+sum = 0
+for i, num in enumerate(nums):
+    if i == 10:
+        break
+    sum += int(num)
+print('Summa: {}'.format(sum))
+#6.zudevums
+preces = ['banani', 'aboli', 'persiki', 'melones', 'arbūzs']
+print('6.uzdevums',preces[0], preces[-1])
+#7.uzdevums
+x = int(input('7.uzdevums. Ievadi veselu skaitli: '))
+print('Rezultāts = {}'.format(x**2+(x/2)*2))
+#8.uzdevums
+print("Ir starp 100 un 1000") if 100 <= int(input('Ievadi veselu skaitli: ')) >=1000 else print("Nav starp 100 un 1000")
+#9.uzdevums
+print('Tavs bmi = ' + str(round(float(input('Ievadi savu svaru (kg):'))/float(input('Ievadi savu augumu (m)'))**2, 4)))
+#10.uzdevums
+print("Man viss izdodas!")
